@@ -20,7 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/transactions")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://expense-tracker-two-xi-26.vercel.app")
+@CrossOrigin(origins = "*")
 public class TransactionController {
 
     private final TransactionService transactionService;
